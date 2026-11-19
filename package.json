@@ -1,0 +1,33 @@
+{
+  "name": "wedplan-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "create-admin": "node scripts/create-admin.js",
+    "smoke-test": "node scripts/smoke-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@better-auth/mongo-adapter": "^1.7.25",
+    "axios": "^1.21.1",
+    "better-auth": "^1.7.25",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jose": "^6.2.17",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.9.0",
+    "stripe": "^23.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "nodemon": "^3.1.14"
+  }
+}
